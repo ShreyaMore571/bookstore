@@ -1,0 +1,20 @@
+/* style.css */
+body {
+  font-family: 'Inter', sans-serif;
+  scroll-behavior: smooth;
+}
+
+/* Custom card hover effect */
+.book-card {
+  transition: transform 0.25s ease, box-shadow 0.25s ease;
+}
+
+.book-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
+}
+
+/* Search input focus */
+#searchInput:focus {
+  outline: 2px solid #2563eb; /* Tailwind's blue-600 */
+}
